@@ -1,5 +1,5 @@
 """Shared pav-bhaji logic: dataset loading, caption feature engineering and the
-text pipeline. Lifted from sarthik_khanna.ipynb so the app and the notebook can
+text pipeline. Lifted from satyajeet_yadav.ipynb so the app and the notebook can
 never disagree about what the model sees.
 """
 import json

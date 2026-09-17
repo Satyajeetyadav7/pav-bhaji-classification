@@ -1,0 +1,13 @@
+# Streamlit Cloud installs exactly this list.
+#
+# The versions are pinned to the ones the models in models/ were pickled with.
+# scikit-learn pickles are not portable across minor versions - loading a 1.8.0
+# model on a different sklearn either warns or fails outright - so scikit-learn,
+# numpy, scipy and pandas all have to match what train_models.py ran on.
+streamlit==1.55.0
+numpy==2.4.1
+pandas==2.3.3
+scikit-learn==1.8.0
+scipy==1.17.0
+joblib==1.5.3
+pillow==12.3.0

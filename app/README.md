@@ -19,7 +19,7 @@ It opens at <http://localhost:8501>.
 
 ## Two models, because the notebook's model is text-only
 
-`sarthik_khanna.ipynb` builds a classifier that deliberately never looks at a
+`satyajeet_yadav.ipynb` builds a classifier that deliberately never looks at a
 pixel — it reads the Instagram caption, hashtags and metadata. That model cannot
 score a bare uploaded photo, because a photo carries no caption. So the app
 serves two:
